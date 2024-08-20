@@ -1,0 +1,104 @@
+.clear {
+    clear: both;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ///////////////////////////////////////////////////// */
+nav {
+    padding-block: 20px;
+    padding-inline: 50px;
+    border-top: solid 4px gray;
+}
+
+.nav-left {
+    margin: auto;
+    list-style: none;
+    float: right;
+}
+
+.nav-left li {
+    display: inline-block;
+    margin-inline: 6px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+/* //////////////////////////////////////////////////// */
+/* header Section */
+header {
+    background-color: #7263FF;
+    padding-block: 30px;
+}
+
+.header-text {
+    display: inline-block;
+    height: 100%;
+    color: #fff;
+    height: 300px;
+}
+
+.header-text button {
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    padding: 10px 8px;
+    color: #fff;
+}
+
+.header-text span {
+    color: #206ba1;
+}
+
+.header-text h2,
+.header-text p,
+.header-text button {
+    margin: 30px 50px;
+}
+
+.header-img {
+    float: right;
+    margin-right: auto;
+
+}
+
+.header-img img {
+    width: 300px;
+    margin-right: 200px;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+.about-us h3 {
+    text-align: center;
+    color: gray;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.about-text {
+    display: inline-block;
+}
+
+.about-text p {
+    margin-block: 30px;
+    margin-left: 50px;
+}
+
+.about-img {
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+.about-img img {
+    height: 280px;
+    margin-left: 200px;
+    /* margin-top: 50px; */
+}
